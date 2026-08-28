@@ -1,0 +1,40 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+src/*.egg-info/
+src/pqeditor.egg-info/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+htmlcov/
+*.log
+
+# Build / Dist
+build/
+dist/
+*.manifest
+*.pyinstaller/
+*.spec.bak
+
+# Rust deprecated implementation — не грузим (огромный target)
+RustImplementation_Bugged_Deprecated/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Env
+.env
+.env.*
